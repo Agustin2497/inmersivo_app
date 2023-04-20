@@ -1,0 +1,152 @@
+
+h1, h2, h3, h4 {
+    margin: 1em 0 .5em;
+    line-height: 1.25
+}
+h1 {
+    font-size: 2em
+    
+}
+h2 {
+    font-size: 1.5em
+}
+h3 {
+    font-size: 1.2em
+}
+ul, ol {
+    margin: 1em 0;
+    padding-left: 40px
+}
+p, figure {
+    margin: 1em 0
+}
+a img {
+    border: none
+}
+sup, sub {
+    line-height: 0
+}
+
+.user-info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.user-info li {
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px 0 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(52, 155, 215);
+}
+
+.title{
+    margin: 1px 0.5%;
+    padding: 80px;
+    background-image: url(https://i.postimg.cc/bYDjGxP1/bannerinmersivo.png);
+    background-size: 100% 100%;
+
+}
+
+.title a{
+    background-color: rgba(85, 85, 244, 0.3);
+    position: relative;
+    left: -50px;
+    top: 75px;
+    font-weight: bold;
+    padding: 6px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration:none;
+    text-transform: uppercase ;
+}
+
+
+.formula{
+    margin: 50px auto;
+    width: 600px;
+    padding: 30px;
+    background: rgba(17, 8, 95, 0.467);
+    border-radius: 10px;
+    
+
+}
+
+.formula h2{
+    margin: 0 50% 30px;
+    padding: 0;
+    font-size: 30px;
+    color: aliceblue;
+    font: caption;
+
+
+}
+
+.formula .elemento{
+    color: azure;
+}
+
+.formula .elemento3{
+    color: rgb(252, 253, 253);
+    position: absolute;
+    left: 50%;
+}
+
+.formula .elemento label{
+    color: aliceblue;
+    font: caption;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formula .elemento input{
+    width: 90%;
+    padding: 10px 0;
+    color: bisque;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 30px;
+    
+}
+
+.formula .elemento input[type="submit"]{
+    background-color: #a49ced;
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase ;
+    cursor: pointer;
+    padding: 15px;
+    margin-top: 30px;
+    font: message-box;
+}
+
+.formula notienes{
+    background-color: #57a4f7;
+    border: none;
+    letter-spacing: 5px;
+    text-transform: uppercase ;
+    font: message-box;
+}
+
+.formula .elemento2{
+    color:#fff;
+    padding: 10px;
+}
+
+.formula .elemento2 a{
+    color:#fff;
+    background-color: rgb(34, 71, 205);
+    padding: 10px;
+    margin: 20px;
+    text-decoration:none;
+}
+

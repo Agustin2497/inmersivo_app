@@ -1,0 +1,23 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#8984db,rgba(17, 8, 95, 0.467));
+}
+.formula{
+    margin: 50px auto;
+    width: 400px;
+    padding: 30px;
+    background: rgba(17, 8, 95, 0.467);
+    border-radius: 10px;
+}
+
+.formula h2{
+    margin: 0 0 30px;
+    padding: 0;
+    font-size: 30px;
+    color: aliceblue;
+}
